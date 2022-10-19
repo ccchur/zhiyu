@@ -1,0 +1,45 @@
+import Vue from 'vue';
+import { Button, Popup } from 'vant'
+import { Field } from 'vant';
+import { Cell, CellGroup } from 'vant';
+import { Toast } from 'vant';
+import { Tabbar, TabbarItem } from 'vant';
+import { NavBar } from 'vant';
+import { Image as VanImage } from 'vant';
+import { Icon } from 'vant';
+import { Uploader } from 'vant';
+import { Swipe, SwipeItem } from 'vant';
+import { Lazyload } from 'vant';
+import { List } from 'vant';
+import { Overlay } from 'vant';
+import { Loading } from 'vant';
+import { PullRefresh } from 'vant';
+import { Collapse, CollapseItem } from 'vant';
+import { RadioGroup, Radio } from 'vant';
+import { Divider } from 'vant';
+import { Sticky } from 'vant';
+
+Vue.use(Sticky);
+Vue.use(Divider);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(Collapse);
+Vue.use(CollapseItem);
+Vue.use(PullRefresh);
+Vue.use(Loading);
+Vue.use(Overlay);
+Vue.use(List);
+Vue.use(Lazyload);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Uploader);
+Vue.use(Icon);
+Vue.use(VanImage);
+Vue.use(NavBar);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(Toast);
+Vue.use(Cell);
+Vue.use(CellGroup);
+Vue.use(Field);
+Vue.use(Button).use(Popup)
